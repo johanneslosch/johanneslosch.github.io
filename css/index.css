@@ -6,9 +6,10 @@ body {
     font-size: large;
     justify-content: center;
     text-align: center;
-    color: black;
+    color: rgb(66, 66, 66);
     margin-left: auto;
     margin-right: auto;
+    background-color: black;
 }
 
 .class1 {
@@ -22,9 +23,11 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
+
 h1 {
     font-size: 200%;
 }
+
 .image img {
     display: block;
     width: 30%;
@@ -36,8 +39,8 @@ h1 {
     transform: scale(1.5, 1.5);
     motion: 1em;
 }
-.fimg * {
 
+.fimg * {
     text-align: center;
     font-size: small;
     display: block;
@@ -47,6 +50,7 @@ h1 {
     width: 5%;
     height: auto;
 }
+
 .overlay {
     position: relative;
     height: 30%;
@@ -58,7 +62,6 @@ h1 {
 
 .container:hover .overlay {
     opacity: 1;
-
 }
 
 .text {
